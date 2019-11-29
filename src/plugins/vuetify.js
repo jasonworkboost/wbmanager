@@ -8,7 +8,7 @@ export default new Vuetify({
     iconfont: 'mdi',
   },
   theme:{
-    dark: false
+    dark: false,
   },
   themes: {
     light: {
@@ -21,6 +21,6 @@ export default new Vuetify({
       info: '#2196F3',
       success: '#4CAF50',
       warning: '#FFC107'
-    }
+    },
   }
 });

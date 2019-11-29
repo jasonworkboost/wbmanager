@@ -93,7 +93,7 @@ export default new Vuex.Store({
   getters:{
     dataBoost: state => {return state.dataBoost},
     boostivities: state => {return state.boostivities},
-    selected: state => {return state.selected}
+    selected: state => {return state.selected},
   },
   mutations: {
     setData(state, payload){
@@ -110,7 +110,6 @@ export default new Vuex.Store({
     },
     changeBoost(context, payload){
       context.commit('changeBoost', payload);
-    }
-
+    },
   },
 });
